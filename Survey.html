@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Interests Survey Form</title>
+</head>
+<body>
+
+    <form action="mailto:laddu22897@gmail.com" method="post" enctype="text/plain">
+        <div align="center">
+            <h1>Student Interests Survey Form</h1><hr>
+            
+            <b>Your Name :</b> 
+            <input type="text" name="username" placeholder="Enter Your Name" size="30" maxlength="30"><br><br>
+
+            <b>Your Branch :</b> 
+            <input type="text" name="branch" placeholder="Enter Your Branch" size="30" maxlength="30"><br><br>
+
+            <b>Please Tell Us About Yourself  :</b>
+            <textarea name="comments" cols="40" rows="5"></textarea><br><br>
+
+            <b>Are You Interested in Sports :</b>
+            <input type="radio" name="exe" value="1">Yes
+            <input type="radio" name="exe" value="2">No
+
+            <br><br>
+            <b>Which Type Of Subjects You Want To CHoose : </b>
+
+            <label for="subject1">Mathematics</label>
+            <input type="checkbox" name="subject1" id="subject1">
+
+            <label for="subject2">Data Structure</label>
+            <input type="checkbox" name="subject2" id="subject2">
+
+            <label for="subject3">Algorithim</label>
+            <input type="checkbox" name="subject3" id="subject3">
+
+            <label for="subject4">Operating System</label>
+            <input type="checkbox" name="subject4" id="subject4"><br><br>
+
+            <b>Select Your Favourite Book :</b>
+
+            <select type="Bookspref">
+                <option value="1">Harry Potter</option>
+                <option value="2">Magic Of Thinking Big</option>
+                <option value="3">Rich Dad Poor Dad</option>
+                <option value="4">The Intelligent Investor</option>
+                <option value="5">The Adventure Of Sherlock Homes</option>
+            </select><br><br>
+            <input type="submit" value="Submit Form">            
+        </div>
+    </form>
+    
+</body>
+</html>
